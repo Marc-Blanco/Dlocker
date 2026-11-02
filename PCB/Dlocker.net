@@ -1,0 +1,5074 @@
+(export
+	(version "E")
+	(design
+		(source "/home/ryuo/W/Downloads/ereader-pcb-v10/ereader.kicad_sch")
+		(date "2026-11-02T01:05:21")
+		(tool "Eeschema 10.0.7")
+		(textvar
+			(name "COMPANY") "Open Source E-Reader Project")
+		(textvar
+			(name "DESIGN_REV") "1.0")
+		(textvar
+			(name "PROJECT_NAME") "DIY E-Ink E-Reader")
+		(textvar
+			(name "THERMAL_NOTE") "2oz Cu outer / 1oz inner - ENIG finish")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Dlocker")
+				(company "Open Source E-Reader Project")
+				(rev "2.0")
+				(date "2026-03-20")
+				(source "ereader.kicad_sch")
+				(comment
+					(number "1")
+					(value "RPi Zero 2W + Waveshare 7.5in E-Ink | KiCad 10.0 format")
+				)
+				(comment
+					(number "2")
+					(value "USB-C Charging (BQ25895) | LiPo 5000mAh (MAX17048 gauge)")
+				)
+				(comment
+					(number "3")
+					(value "Thermal vias + B.Cu heatspreader | NTC monitoring")
+				)
+				(comment
+					(number "4")
+					(value "Variants: standard / low_power / rpi_zero_1w")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "C")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "89a41ef3-d056-4777-b7a2-dd53d5ff1907")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "C")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6f4d2de1-ef26-4c18-bbd0-ac5ac5b3cd9e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "C")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bf4bc38a-e08c-41da-93c6-2a28a801e4cd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "LED")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f6bcb0ee-e537-42ce-af40-bce2ae0ba477")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "LED")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0c659f1c-eee9-48e2-9bba-8b009b82a27a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "USB_C_Receptacle")
+			(datasheet "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
+			(description "USB Full-Featured Type-C Receptacle connector")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
+				(field
+					(name "Description") "USB Full-Featured Type-C Receptacle connector")
+			)
+			(libsource
+				(lib "Connector")
+				(part "USB_C_Receptacle")
+				(description "USB Full-Featured Type-C Receptacle connector")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "usb universal serial bus type-C full-featured")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "USB*C*Receptacle*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3bb5cbdd-44e1-4bf9-886b-ee86a3130381")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "SH")
+						)
+						(pin
+							(num "B1")
+						)
+						(pin
+							(num "B12")
+						)
+						(pin
+							(num "A1")
+						)
+						(pin
+							(num "A12")
+						)
+						(pin
+							(num "B9")
+						)
+						(pin
+							(num "A9")
+						)
+						(pin
+							(num "B4")
+						)
+						(pin
+							(num "A4")
+						)
+						(pin
+							(num "A5")
+						)
+						(pin
+							(num "B5")
+						)
+						(pin
+							(num "A7")
+						)
+						(pin
+							(num "B7")
+						)
+						(pin
+							(num "A6")
+						)
+						(pin
+							(num "B6")
+						)
+						(pin
+							(num "B10")
+						)
+						(pin
+							(num "B11")
+						)
+						(pin
+							(num "A3")
+						)
+						(pin
+							(num "A2")
+						)
+						(pin
+							(num "A10")
+						)
+						(pin
+							(num "A11")
+						)
+						(pin
+							(num "B3")
+						)
+						(pin
+							(num "B2")
+						)
+						(pin
+							(num "A8")
+						)
+						(pin
+							(num "B8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "RASPBERRY_PI_ZERO_2_W")
+			(footprint "RASPBERRY_PI_ZERO_2_W:MODULE_RASPBERRY_PI_ZERO_2_W")
+			(description "At the heart of Raspberry Pi Zero 2 W is RP3A0, a custom-built system-in-package designed by Raspberry Pi in the UK.")
+			(fields
+				(field
+					(name "MF") "Raspberry Pi")
+				(field
+					(name "Package") "None")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/RASPBERRY%20PI%20ZERO%202%20W/Raspberry+Pi/view-part/?ref=eda")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "April 2024")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/RASPBERRY%20PI%20ZERO%202%20W/Raspberry+Pi/view-part/?ref=snap")
+				(field
+					(name "MP") "RASPBERRY PI ZERO 2 W")
+				(field
+					(name "Availability") "Not in stock")
+				(field
+					(name "MANUFACTURER") "Raspberry Pi")
+				(field
+					(name "Footprint") "RASPBERRY_PI_ZERO_2_W:MODULE_RASPBERRY_PI_ZERO_2_W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "At the heart of Raspberry Pi Zero 2 W is RP3A0, a custom-built system-in-package designed by Raspberry Pi in the UK.")
+			)
+			(libsource
+				(lib "KiCad2")
+				(part "RASPBERRY_PI_ZERO_2_W")
+				(description "At the heart of Raspberry Pi Zero 2 W is RP3A0, a custom-built system-in-package designed by Raspberry Pi in the UK.")
+			)
+			(property
+				(name "MF")
+				(value "Raspberry Pi")
+			)
+			(property
+				(name "Package")
+				(value "None")
+			)
+			(property
+				(name "Price")
+				(value "None")
+			)
+			(property
+				(name "Check_prices")
+				(value "https://www.snapeda.com/parts/RASPBERRY%20PI%20ZERO%202%20W/Raspberry+Pi/view-part/?ref=eda")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer Recommendations")
+			)
+			(property
+				(name "PARTREV")
+				(value "April 2024")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "https://www.snapeda.com/parts/RASPBERRY%20PI%20ZERO%202%20W/Raspberry+Pi/view-part/?ref=snap")
+			)
+			(property
+				(name "MP")
+				(value "RASPBERRY PI ZERO 2 W")
+			)
+			(property
+				(name "Availability")
+				(value "Not in stock")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Raspberry Pi")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "040663fe-e9f9-4cb1-b317-b137a6793942")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "39")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "FH12-24S-0.5SH_55_")
+			(footprint "FH12-24S-0.5SH_55_:HRS_FH12-24S-0.5SH_55_")
+			(description "24 Position FFC, FPC Connector Contacts, Bottom 0.020 (0.50mm) Surface Mount, Right Angle")
+			(fields
+				(field
+					(name "MF") "Hirose Electric Co Ltd")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "2.2mm")
+				(field
+					(name "Package") "None")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/FH12-24S-0.5SH(55)/Hirose+Electric+Co+Ltd/view-part/?ref=eda")
+				(field
+					(name "STANDARD") "Manufacturer recommendations")
+				(field
+					(name "PARTREV")
+				)
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/FH12-24S-0.5SH(55)/Hirose+Electric+Co+Ltd/view-part/?ref=snap")
+				(field
+					(name "MP") "FH12-24S-0.5SH(55)")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12292054&manufacturer=Hirose Electric Co Ltd&part_name=FH12-24S-0.5SH(55)&search_term=None")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "MANUFACTURER") "Hirose")
+				(field
+					(name "Footprint") "FH12-24S-0.5SH_55_:HRS_FH12-24S-0.5SH_55_")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "24 Position FFC, FPC Connector Contacts, Bottom 0.020 (0.50mm) Surface Mount, Right Angle")
+			)
+			(libsource
+				(lib "KiCad2")
+				(part "FH12-24S-0.5SH_55_")
+				(description "24 Position FFC, FPC Connector Contacts, Bottom 0.020 (0.50mm) Surface Mount, Right Angle")
+			)
+			(property
+				(name "MF")
+				(value "Hirose Electric Co Ltd")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "2.2mm")
+			)
+			(property
+				(name "Package")
+				(value "None")
+			)
+			(property
+				(name "Price")
+				(value "None")
+			)
+			(property
+				(name "Check_prices")
+				(value "https://www.snapeda.com/parts/FH12-24S-0.5SH(55)/Hirose+Electric+Co+Ltd/view-part/?ref=eda")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer recommendations")
+			)
+			(property
+				(name "PARTREV")
+				(value "")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "https://www.snapeda.com/parts/FH12-24S-0.5SH(55)/Hirose+Electric+Co+Ltd/view-part/?ref=snap")
+			)
+			(property
+				(name "MP")
+				(value "FH12-24S-0.5SH(55)")
+			)
+			(property
+				(name "Purchase-URL")
+				(value "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12292054&manufacturer=Hirose Electric Co Ltd&part_name=FH12-24S-0.5SH(55)&search_term=None")
+			)
+			(property
+				(name "Availability")
+				(value "In Stock")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Hirose")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e1660cc1-5c1f-498f-abc6-6bfe33b3718f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "P1")
+						)
+						(pin
+							(num "P2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "693072010801")
+			(footprint "rpiz:693072010801")
+			(description "CardConnector_SMT_MicroSD_Hinge_8pins")
+			(fields
+				(field
+					(name "MF") "Wurth Electronics")
+				(field
+					(name "Package") "None")
+				(field
+					(name "Price") "None")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/693072010801/Wurth+Electronics/view-part/?ref=snap")
+				(field
+					(name "MP") "693072010801")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=424369&manufacturer=Wurth Electronics&part_name=693072010801&search_term=None")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/693072010801/Wurth+Electronics/view-part/?ref=eda")
+				(field
+					(name "Footprint") "rpiz:693072010801")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "CardConnector_SMT_MicroSD_Hinge_8pins")
+			)
+			(libsource
+				(lib "KiCad2")
+				(part "693072010801")
+				(description "CardConnector_SMT_MicroSD_Hinge_8pins")
+			)
+			(property
+				(name "MF")
+				(value "Wurth Electronics")
+			)
+			(property
+				(name "Package")
+				(value "None")
+			)
+			(property
+				(name "Price")
+				(value "None")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "https://www.snapeda.com/parts/693072010801/Wurth+Electronics/view-part/?ref=snap")
+			)
+			(property
+				(name "MP")
+				(value "693072010801")
+			)
+			(property
+				(name "Purchase-URL")
+				(value "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=424369&manufacturer=Wurth Electronics&part_name=693072010801&search_term=None")
+			)
+			(property
+				(name "Availability")
+				(value "In Stock")
+			)
+			(property
+				(name "Check_prices")
+				(value "https://www.snapeda.com/parts/693072010801/Wurth+Electronics/view-part/?ref=eda")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0d19a21f-8b69-4a9a-981f-2ce0607533a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "S1")
+						)
+						(pin
+							(num "S2")
+						)
+						(pin
+							(num "S3")
+						)
+						(pin
+							(num "S4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "R")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a456448f-4941-4e21-9b62-6e1320ca4f13")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "R")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cdac7c52-3217-4ff1-bdf4-2117c0db9de5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "R")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4b03836e-95be-488d-9b43-ec445eb08f42")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "R")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e376ccbe-f37b-427c-b494-f21921f3fcad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "R")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c65b6c2d-573c-43e2-88df-341c430fc6d5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "R")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c74554d3-b40f-4606-b285-39afc55a2067")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "R")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "65c5c222-5c08-4192-8b6c-5f760f5c45f8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW1")
+			(value "SW_DPST_x2")
+			(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_DPST_x2")
+				(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch lever")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6644f0f7-3a97-4df4-81a9-5eb21d65fc2c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW2")
+			(value "SW_DPST_x2")
+			(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_DPST_x2")
+				(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch lever")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ed03acb6-2aae-4d23-b88a-222c8953d9bb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW3")
+			(value "SW_DPST_x2")
+			(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_DPST_x2")
+				(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch lever")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "888eaf33-51a2-4ac7-9390-2b92632996d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW4")
+			(value "SW_DPST_x2")
+			(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_DPST_x2")
+				(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch lever")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e9ac4854-5461-4d9c-9f0f-421ba3da67fc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW5")
+			(value "SW_DPST_x2")
+			(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_DPST_x2")
+				(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch lever")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6605d9b3-10d7-4f54-944d-5c8ffa131c61")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW6")
+			(value "SW_DPST_x2")
+			(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_DPST_x2")
+				(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch lever")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "de42b563-a722-4ffb-9745-df91a8913451")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TH1")
+			(value "Thermistor_NTC")
+			(description "Temperature dependent resistor, negative temperature coefficient")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Temperature dependent resistor, negative temperature coefficient")
+			)
+			(libsource
+				(lib "Device")
+				(part "Thermistor_NTC")
+				(description "Temperature dependent resistor, negative temperature coefficient")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "thermistor NTC resistor sensor RTD")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_* RV_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "02504b0f-dbd0-48c2-b0c7-6bf134dd5aeb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "BQ25895RTWR")
+			(footprint "BQ25895RTWR:QFN50P400X400X80-25N")
+			(description "I2C 1cell 5A buck battery charger with high input voltage and 3.1-A boost with HVDCP enabled")
+			(fields
+				(field
+					(name "MF") "Texas Instruments")
+				(field
+					(name "Package") "WQFN-24 Texas Instruments")
+				(field
+					(name "Price") "None")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/BQ25895RTWR/Texas+Instruments/view-part/?ref=snap")
+				(field
+					(name "MP") "BQ25895RTWR")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=323332&manufacturer=Texas Instruments&part_name=BQ25895RTWR&search_term=None")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/BQ25895RTWR/Texas+Instruments/view-part/?ref=eda")
+				(field
+					(name "Footprint") "BQ25895RTWR:QFN50P400X400X80-25N")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "I2C 1cell 5A buck battery charger with high input voltage and 3.1-A boost with HVDCP enabled")
+			)
+			(libsource
+				(lib "KiCad2")
+				(part "BQ25895RTWR")
+				(description "I2C 1cell 5A buck battery charger with high input voltage and 3.1-A boost with HVDCP enabled")
+			)
+			(property
+				(name "MF")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Package")
+				(value "WQFN-24 Texas Instruments")
+			)
+			(property
+				(name "Price")
+				(value "None")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "https://www.snapeda.com/parts/BQ25895RTWR/Texas+Instruments/view-part/?ref=snap")
+			)
+			(property
+				(name "MP")
+				(value "BQ25895RTWR")
+			)
+			(property
+				(name "Purchase-URL")
+				(value "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=323332&manufacturer=Texas Instruments&part_name=BQ25895RTWR&search_term=None")
+			)
+			(property
+				(name "Availability")
+				(value "In Stock")
+			)
+			(property
+				(name "Check_prices")
+				(value "https://www.snapeda.com/parts/BQ25895RTWR/Texas+Instruments/view-part/?ref=eda")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dbd7ed27-b8e2-49a6-b765-1cdb8ebdaa55")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "RCD-24-0.60_Vref")
+			(footprint "RCD-24-0.60_Vref:CONV_RCD-24-0.60_Vref")
+			(description "0.6A LED-Driver 'LIGHTLINE' DIP reg")
+			(fields
+				(field
+					(name "MF") "Recom Power")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "8.5mm")
+				(field
+					(name "Package") "DIP-6 Recom Power")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/RCD-24-0.60/Vref/Recom+Power/view-part/?ref=eda")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "1")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/RCD-24-0.60/Vref/Recom+Power/view-part/?ref=snap")
+				(field
+					(name "MP") "RCD-24-0.60/Vref")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3631304&manufacturer=Recom Power&part_name=RCD-24-0.60/Vref&search_term=none")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "MANUFACTURER") "Recom")
+				(field
+					(name "Footprint") "RCD-24-0.60_Vref:CONV_RCD-24-0.60_Vref")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.6A LED-Driver 'LIGHTLINE' DIP reg")
+			)
+			(libsource
+				(lib "KiCad2")
+				(part "RCD-24-0.60_Vref")
+				(description "0.6A LED-Driver 'LIGHTLINE' DIP reg")
+			)
+			(property
+				(name "MF")
+				(value "Recom Power")
+			)
+			(property
+				(name "MAXIMUM_PACKAGE_HEIGHT")
+				(value "8.5mm")
+			)
+			(property
+				(name "Package")
+				(value "DIP-6 Recom Power")
+			)
+			(property
+				(name "Price")
+				(value "None")
+			)
+			(property
+				(name "Check_prices")
+				(value "https://www.snapeda.com/parts/RCD-24-0.60/Vref/Recom+Power/view-part/?ref=eda")
+			)
+			(property
+				(name "STANDARD")
+				(value "Manufacturer Recommendations")
+			)
+			(property
+				(name "PARTREV")
+				(value "1")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "https://www.snapeda.com/parts/RCD-24-0.60/Vref/Recom+Power/view-part/?ref=snap")
+			)
+			(property
+				(name "MP")
+				(value "RCD-24-0.60/Vref")
+			)
+			(property
+				(name "Purchase-URL")
+				(value "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3631304&manufacturer=Recom Power&part_name=RCD-24-0.60/Vref&search_term=none")
+			)
+			(property
+				(name "Availability")
+				(value "In Stock")
+			)
+			(property
+				(name "MANUFACTURER")
+				(value "Recom")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1e18d1c1-b087-4d88-9198-d118b4d9e5b0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "MAX17048G_T10")
+			(footprint "MAX17048G_T10:SON50P200X200X80-9N")
+			(description "3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge")
+			(fields
+				(field
+					(name "MF") "Analog Devices")
+				(field
+					(name "Package") "TDFN-8 Maxim")
+				(field
+					(name "Price") "None")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=snap")
+				(field
+					(name "MP") "MAX17048G+T10")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=329239&manufacturer=Analog Devices&part_name=MAX17048G+T10&search_term=None")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=eda")
+				(field
+					(name "Footprint") "MAX17048G_T10:SON50P200X200X80-9N")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge")
+			)
+			(libsource
+				(lib "KiCad2")
+				(part "MAX17048G_T10")
+				(description "3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge")
+			)
+			(property
+				(name "MF")
+				(value "Analog Devices")
+			)
+			(property
+				(name "Package")
+				(value "TDFN-8 Maxim")
+			)
+			(property
+				(name "Price")
+				(value "None")
+			)
+			(property
+				(name "SnapEDA_Link")
+				(value "https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=snap")
+			)
+			(property
+				(name "MP")
+				(value "MAX17048G+T10")
+			)
+			(property
+				(name "Purchase-URL")
+				(value "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=329239&manufacturer=Analog Devices&part_name=MAX17048G+T10&search_term=None")
+			)
+			(property
+				(name "Availability")
+				(value "In Stock")
+			)
+			(property
+				(name "Check_prices")
+				(value "https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=eda")
+			)
+			(property
+				(name "Sheetname")
+				(value "ereader")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ereader.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4a09662f-f3f1-4530-b700-94056a0c17dd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector")
+			(part "USB_C_Receptacle")
+			(description "USB Full-Featured Type-C Receptacle connector")
+			(docs "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
+			(footprints
+				(fp "USB*C*Receptacle*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "USB_C_Receptacle")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
+				(field
+					(name "Description") "USB Full-Featured Type-C Receptacle connector")
+			)
+			(pins
+				(pin
+					(num "A1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "A2")
+					(name "TX1+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A3")
+					(name "TX1-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A4")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "A5")
+					(name "CC1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A6")
+					(name "D+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A7")
+					(name "D-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A8")
+					(name "SBU1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A9")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "A10")
+					(name "RX2-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A11")
+					(name "RX2+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "A12")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "B1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "B2")
+					(name "TX2+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B3")
+					(name "TX2-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B4")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "B5")
+					(name "CC2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B6")
+					(name "D+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B7")
+					(name "D-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B8")
+					(name "SBU2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B9")
+					(name "VBUS")
+					(type "passive")
+				)
+				(pin
+					(num "B10")
+					(name "RX1-")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B11")
+					(name "RX1+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "B12")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "SH")
+					(name "SHIELD")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Thermistor_NTC")
+			(description "Temperature dependent resistor, negative temperature coefficient")
+			(footprints
+				(fp "R_*")
+				(fp "RV_*")
+			)
+			(fields
+				(field
+					(name "Reference") "TH")
+				(field
+					(name "Value") "Thermistor_NTC")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Temperature dependent resistor, negative temperature coefficient")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "KiCad2")
+			(part "693072010801")
+			(description "CardConnector_SMT_MicroSD_Hinge_8pins")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "693072010801")
+				(field
+					(name "Footprint") "693072010801:693072010801")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "CardConnector_SMT_MicroSD_Hinge_8pins")
+				(field
+					(name "MF") "Wurth Electronics")
+				(field
+					(name "Package") "None")
+				(field
+					(name "Price") "None")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/693072010801/Wurth+Electronics/view-part/?ref=snap")
+				(field
+					(name "MP") "693072010801")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=424369&manufacturer=Wurth Electronics&part_name=693072010801&search_term=None")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/693072010801/Wurth+Electronics/view-part/?ref=eda")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "DAT2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "CD/DAT3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "CMD")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "VDD")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "CLK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "VSS")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "DAT0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "DAT1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "S1")
+					(name "")
+					(type "bidirectional")
+				)
+				(pin
+					(num "S2")
+					(name "")
+					(type "bidirectional")
+				)
+				(pin
+					(num "S3")
+					(name "")
+					(type "bidirectional")
+				)
+				(pin
+					(num "S4")
+					(name "")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "KiCad2")
+			(part "BQ25895RTWR")
+			(description "I2C 1cell 5A buck battery charger with high input voltage and 3.1-A boost with HVDCP enabled")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "BQ25895RTWR")
+				(field
+					(name "Footprint") "BQ25895RTWR:QFN50P400X400X80-25N")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "I2C 1cell 5A buck battery charger with high input voltage and 3.1-A boost with HVDCP enabled")
+				(field
+					(name "MF") "Texas Instruments")
+				(field
+					(name "Package") "WQFN-24 Texas Instruments")
+				(field
+					(name "Price") "None")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/BQ25895RTWR/Texas+Instruments/view-part/?ref=snap")
+				(field
+					(name "MP") "BQ25895RTWR")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=323332&manufacturer=Texas Instruments&part_name=BQ25895RTWR&search_term=None")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/BQ25895RTWR/Texas+Instruments/view-part/?ref=eda")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VBUS")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "D+")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "D–")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "STAT")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "SCL")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "INT")
+					(type "output")
+				)
+				(pin
+					(num "8")
+					(name "OTG")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "~{CE}")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "ILIM")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "TS")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "~{QON}")
+					(type "input")
+				)
+				(pin
+					(num "13")
+					(name "BAT")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "BAT")
+					(type "power_in")
+				)
+				(pin
+					(num "15")
+					(name "SYS")
+					(type "power_in")
+				)
+				(pin
+					(num "16")
+					(name "SYS")
+					(type "power_in")
+				)
+				(pin
+					(num "17")
+					(name "PGND")
+					(type "power_in")
+				)
+				(pin
+					(num "18")
+					(name "PGND")
+					(type "power_in")
+				)
+				(pin
+					(num "19")
+					(name "SW")
+					(type "power_in")
+				)
+				(pin
+					(num "20")
+					(name "SW")
+					(type "power_in")
+				)
+				(pin
+					(num "21")
+					(name "BTST")
+					(type "power_in")
+				)
+				(pin
+					(num "22")
+					(name "REGN")
+					(type "power_in")
+				)
+				(pin
+					(num "23")
+					(name "PMID")
+					(type "output")
+				)
+				(pin
+					(num "24")
+					(name "DSEL")
+					(type "output")
+				)
+				(pin
+					(num "25")
+					(name "POWERPAD")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "KiCad2")
+			(part "FH12-24S-0.5SH_55_")
+			(description "24 Position FFC, FPC Connector Contacts, Bottom 0.020 (0.50mm) Surface Mount, Right Angle")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "FH12-24S-0.5SH_55_")
+				(field
+					(name "Footprint") "FH12-24S-0.5SH_55_:HRS_FH12-24S-0.5SH_55_")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "24 Position FFC, FPC Connector Contacts, Bottom 0.020 (0.50mm) Surface Mount, Right Angle")
+				(field
+					(name "MF") "Hirose Electric Co Ltd")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "2.2mm")
+				(field
+					(name "Package") "None")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/FH12-24S-0.5SH(55)/Hirose+Electric+Co+Ltd/view-part/?ref=eda")
+				(field
+					(name "STANDARD") "Manufacturer recommendations")
+				(field
+					(name "PARTREV")
+				)
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/FH12-24S-0.5SH(55)/Hirose+Electric+Co+Ltd/view-part/?ref=snap")
+				(field
+					(name "MP") "FH12-24S-0.5SH(55)")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12292054&manufacturer=Hirose Electric Co Ltd&part_name=FH12-24S-0.5SH(55)&search_term=None")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "MANUFACTURER") "Hirose")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "14")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "15")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "16")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "17")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "18")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "19")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "20")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "21")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "22")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "23")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "24")
+					(type "passive")
+				)
+				(pin
+					(num "P1")
+					(name "SHIELD")
+					(type "passive")
+				)
+				(pin
+					(num "P2")
+					(name "SHIELD")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "KiCad2")
+			(part "MAX17048G_T10")
+			(description "3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MAX17048G_T10")
+				(field
+					(name "Footprint") "MAX17048G_T10:SON50P200X200X80-9N")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3µA 1-Cell/2-Cell Fuel Gauge with ModelGauge")
+				(field
+					(name "MF") "Analog Devices")
+				(field
+					(name "Package") "TDFN-8 Maxim")
+				(field
+					(name "Price") "None")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=snap")
+				(field
+					(name "MP") "MAX17048G+T10")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=329239&manufacturer=Analog Devices&part_name=MAX17048G+T10&search_term=None")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=eda")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "CTG")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "CELL")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "~{ALERT}")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "QSTRT")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "SCL")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "EP")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "KiCad2")
+			(part "RASPBERRY_PI_ZERO_2_W")
+			(description "At the heart of Raspberry Pi Zero 2 W is RP3A0, a custom-built system-in-package designed by Raspberry Pi in the UK.")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "RASPBERRY_PI_ZERO_2_W")
+				(field
+					(name "Footprint") "RASPBERRY_PI_ZERO_2_W:MODULE_RASPBERRY_PI_ZERO_2_W")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "At the heart of Raspberry Pi Zero 2 W is RP3A0, a custom-built system-in-package designed by Raspberry Pi in the UK.")
+				(field
+					(name "MF") "Raspberry Pi")
+				(field
+					(name "Package") "None")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/RASPBERRY%20PI%20ZERO%202%20W/Raspberry+Pi/view-part/?ref=eda")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "April 2024")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/RASPBERRY%20PI%20ZERO%202%20W/Raspberry+Pi/view-part/?ref=snap")
+				(field
+					(name "MP") "RASPBERRY PI ZERO 2 W")
+				(field
+					(name "Availability") "Not in stock")
+				(field
+					(name "MANUFACTURER") "Raspberry Pi")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "3V3_1")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "5V_2")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "GPIO2/SDA1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "5V_4")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "GPIO3/SCL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "GND_6")
+					(type "power_in")
+				)
+				(pin
+					(num "7")
+					(name "GPIO4/GPIO_GCLK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "GPIO14/TXD0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "GND_9")
+					(type "power_in")
+				)
+				(pin
+					(num "10")
+					(name "GPIO15/RXD0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "GPIO17/GPIO_GEN0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "GPIO18/GPIO_GEN1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "GPIO27/GPIO_GEN2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "GND_14")
+					(type "power_in")
+				)
+				(pin
+					(num "15")
+					(name "GPIO22/GPIO_GEN3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "GPIO23/GPIO_GEN4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "3V3_17")
+					(type "power_in")
+				)
+				(pin
+					(num "18")
+					(name "GPIO24/GPIO_GEN5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "GPIO10/SPI_MOSI")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "GND_20")
+					(type "power_in")
+				)
+				(pin
+					(num "21")
+					(name "GPIO9/SPI_MISO")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "GPIO25/GPIO_GEN6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "GPIO11/SPI_SCLK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "GPIO8/SPI_~{CE0}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "GND_25")
+					(type "power_in")
+				)
+				(pin
+					(num "26")
+					(name "GPIO7/SPI_~{CE1}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "ID_SD")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "ID_SC")
+					(type "bidirectional")
+				)
+				(pin
+					(num "29")
+					(name "GPIO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "GND_30")
+					(type "power_in")
+				)
+				(pin
+					(num "31")
+					(name "GPIO6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "GPIO12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "33")
+					(name "GPIO13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "34")
+					(name "GND_34")
+					(type "power_in")
+				)
+				(pin
+					(num "35")
+					(name "GPIO19")
+					(type "bidirectional")
+				)
+				(pin
+					(num "36")
+					(name "GPIO16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "37")
+					(name "GPIO26")
+					(type "bidirectional")
+				)
+				(pin
+					(num "38")
+					(name "GPIO20")
+					(type "bidirectional")
+				)
+				(pin
+					(num "39")
+					(name "GND_39")
+					(type "power_in")
+				)
+				(pin
+					(num "40")
+					(name "GPIO21")
+					(type "bidirectional")
+				)
+			)
+		)
+		(libpart
+			(lib "KiCad2")
+			(part "RCD-24-0.60_Vref")
+			(description "0.6A LED-Driver 'LIGHTLINE' DIP reg")
+			(fields
+				(field
+					(name "Reference") "PS")
+				(field
+					(name "Value") "RCD-24-0.60_Vref")
+				(field
+					(name "Footprint") "RCD-24-0.60_Vref:CONV_RCD-24-0.60_Vref")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "0.6A LED-Driver 'LIGHTLINE' DIP reg")
+				(field
+					(name "MF") "Recom Power")
+				(field
+					(name "MAXIMUM_PACKAGE_HEIGHT") "8.5mm")
+				(field
+					(name "Package") "DIP-6 Recom Power")
+				(field
+					(name "Price") "None")
+				(field
+					(name "Check_prices") "https://www.snapeda.com/parts/RCD-24-0.60/Vref/Recom+Power/view-part/?ref=eda")
+				(field
+					(name "STANDARD") "Manufacturer Recommendations")
+				(field
+					(name "PARTREV") "1")
+				(field
+					(name "SnapEDA_Link") "https://www.snapeda.com/parts/RCD-24-0.60/Vref/Recom+Power/view-part/?ref=snap")
+				(field
+					(name "MP") "RCD-24-0.60/Vref")
+				(field
+					(name "Purchase-URL") "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3631304&manufacturer=Recom Power&part_name=RCD-24-0.60/Vref&search_term=none")
+				(field
+					(name "Availability") "In Stock")
+				(field
+					(name "MANUFACTURER") "Recom")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+VIN")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "ANALOGUE_DIMMING")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "VREF")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "-VOUT")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "+VOUT")
+					(type "output")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_DPST_x2")
+			(description "Single Pole Single Throw (SPST) switch, separate symbol")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_DPST_x2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single Pole Single Throw (SPST) switch, separate symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "B")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "KiCad2")
+			(uri "/home/ryuo/W/Downloads/ereader-pcb-v10/")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/CHRG_STAT")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "STAT_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "2")
+			(name "/DN")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A7")
+				(pinfunction "D-_A7")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J1")
+				(pin "B7")
+				(pinfunction "D-_B7")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J2")
+				(pin "10")
+				(pinfunction "GPIO15/RXD0_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "3")
+			(name "/EINK_BUSY")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "32")
+				(pinfunction "GPIO12_32")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J3")
+				(pin "8")
+				(pinfunction "8_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/EINK_CS")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "24")
+				(pinfunction "GPIO8/SPI_~{CE0}_24")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J3")
+				(pin "5")
+				(pinfunction "5_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/EINK_DC")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "18")
+				(pinfunction "GPIO24/GPIO_GEN5_18")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J3")
+				(pin "6")
+				(pinfunction "6_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/EINK_RST")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "29")
+				(pinfunction "GPIO5_29")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J3")
+				(pin "7")
+				(pinfunction "7_7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/GPIO_BCK")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "15")
+				(pinfunction "GPIO22/GPIO_GEN3_15")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/GPIO_DN")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "36")
+				(pinfunction "GPIO16_36")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/GPIO_FWD")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "16")
+				(pinfunction "GPIO23/GPIO_GEN4_16")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/GPIO_MENU")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "13")
+				(pinfunction "GPIO27/GPIO_GEN2_13")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/GPIO_POWER")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "11")
+				(pinfunction "GPIO17/GPIO_GEN0_11")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/GPIO_UP")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "12")
+				(pinfunction "GPIO18/GPIO_GEN1_12")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/I2C_SCL")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "5")
+				(pinfunction "GPIO3/SCL_5")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "SCL_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "14")
+			(name "/I2C_SDA")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "GPIO2/SDA1_3")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "SDA_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "15")
+			(name "/SPI_CLK")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "23")
+				(pinfunction "GPIO11/SPI_SCLK_23")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J2")
+				(pin "35")
+				(pinfunction "GPIO19_35")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/SPI_MISO")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "21")
+				(pinfunction "GPIO9/SPI_MISO_21")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J3")
+				(pin "9")
+				(pinfunction "9_9")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/SPI_MOSI")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "19")
+				(pinfunction "GPIO10/SPI_MOSI_19")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/THERMISTOR")
+			(class "Default")
+			(node
+				(ref "TH1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/USB_DP")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A6")
+				(pinfunction "D+_A6")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J1")
+				(pin "B6")
+				(pinfunction "D+_B6")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J2")
+				(pin "8")
+				(pinfunction "GPIO14/TXD0_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "20")
+			(name "/VBUS")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A4")
+				(pinfunction "VBUS_A4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "A9")
+				(pinfunction "VBUS_A9")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "B4")
+				(pinfunction "VBUS_B4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "B9")
+				(pinfunction "VBUS_B9")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "VBUS_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "21")
+			(name "/VCC")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "5V_2_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "5V_4_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "+VOUT_6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "22")
+			(name "BAT")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "BAT_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "BAT_14")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "+VIN_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "CTG_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "23")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "A1")
+				(pinfunction "GND_A1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "A12")
+				(pinfunction "GND_A12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "B1")
+				(pinfunction "GND_B1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "B12")
+				(pinfunction "GND_B12")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW4")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW5")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW6")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "Net-(J1-CC1)")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "A5")
+				(pinfunction "CC1_A5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "25")
+			(name "Net-(J1-CC2)")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "B5")
+				(pinfunction "CC2_B5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "26")
+			(name "Net-(J3-SHIELD-PadP1)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "P1")
+				(pinfunction "SHIELD_P1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "P2")
+				(pinfunction "SHIELD_P2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "Net-(J4-PadS1)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "S1")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J4")
+				(pin "S2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J4")
+				(pin "S3")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "J4")
+				(pin "S4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "28")
+			(name "Net-(SW1A-A)")
+			(class "Default")
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "Net-(SW3A-A)")
+			(class "Default")
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "Net-(SW4A-A)")
+			(class "Default")
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW4")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "Net-(SW5A-A)")
+			(class "Default")
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW5")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "Net-(SW6A-A)")
+			(class "Default")
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW6")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "PGND")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "PGND_17")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "PGND_18")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "34")
+			(name "SW")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "SW_19")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "SW_20")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "35")
+			(name "SYS")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "SYS_15")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "SYS_16")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(C3-Pad2)")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(D2-A-Pad2)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(D2-K-Pad1)")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(J1-RX1+-PadB11)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "B11")
+				(pinfunction "RX1+_B11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(J1-RX1--PadB10)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "B10")
+				(pinfunction "RX1-_B10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(J1-RX2+-PadA11)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A11")
+				(pinfunction "RX2+_A11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(J1-RX2--PadA10)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A10")
+				(pinfunction "RX2-_A10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(J1-SBU1-PadA8)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A8")
+				(pinfunction "SBU1_A8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(J1-SBU2-PadB8)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "B8")
+				(pinfunction "SBU2_B8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(J1-SHIELD-PadSH)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "SH")
+				(pinfunction "SHIELD_SH")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(J1-TX1+-PadA2)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A2")
+				(pinfunction "TX1+_A2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(J1-TX1--PadA3)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "A3")
+				(pinfunction "TX1-_A3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(J1-TX2+-PadB2)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "B2")
+				(pinfunction "TX2+_B2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(J1-TX2--PadB3)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "B3")
+				(pinfunction "TX2-_B3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(J2-3V3_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "3V3_1_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(J2-3V3_17-Pad17)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "17")
+				(pinfunction "3V3_17_17")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(J2-GND_6-Pad6)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "6")
+				(pinfunction "GND_6_6")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(J2-GND_9-Pad9)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "9")
+				(pinfunction "GND_9_9")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(J2-GND_14-Pad14)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "14")
+				(pinfunction "GND_14_14")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "55")
+			(name "unconnected-(J2-GND_20-Pad20)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "20")
+				(pinfunction "GND_20_20")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "56")
+			(name "unconnected-(J2-GND_25-Pad25)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "25")
+				(pinfunction "GND_25_25")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(J2-GND_30-Pad30)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "30")
+				(pinfunction "GND_30_30")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(J2-GND_34-Pad34)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "34")
+				(pinfunction "GND_34_34")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(J2-GND_39-Pad39)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "39")
+				(pinfunction "GND_39_39")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(J2-GPIO4{slash}GPIO_GCLK-Pad7)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "7")
+				(pinfunction "GPIO4/GPIO_GCLK_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(J2-GPIO6-Pad31)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "31")
+				(pinfunction "GPIO6_31")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "62")
+			(name "unconnected-(J2-GPIO7{slash}SPI_~{CE1}-Pad26)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "26")
+				(pinfunction "GPIO7/SPI_~{CE1}_26")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(J2-GPIO13-Pad33)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "33")
+				(pinfunction "GPIO13_33")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(J2-GPIO20-Pad38)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "38")
+				(pinfunction "GPIO20_38")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(J2-GPIO21-Pad40)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "40")
+				(pinfunction "GPIO21_40")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(J2-GPIO25{slash}GPIO_GEN6-Pad22)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "22")
+				(pinfunction "GPIO25/GPIO_GEN6_22")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(J2-GPIO26-Pad37)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "37")
+				(pinfunction "GPIO26_37")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(J2-ID_SC-Pad28)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "28")
+				(pinfunction "ID_SC_28")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(J2-ID_SD-Pad27)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "27")
+				(pinfunction "ID_SD_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(J3-Pad1)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(J3-Pad2)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(J3-Pad10)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "10")
+				(pinfunction "10_10")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(J3-Pad11)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "11")
+				(pinfunction "11_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(J3-Pad12)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "12")
+				(pinfunction "12_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "75")
+			(name "unconnected-(J3-Pad13)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "13")
+				(pinfunction "13_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "76")
+			(name "unconnected-(J3-Pad14)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "14")
+				(pinfunction "14_14")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "77")
+			(name "unconnected-(J3-Pad15)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "15")
+				(pinfunction "15_15")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "78")
+			(name "unconnected-(J3-Pad16)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "16")
+				(pinfunction "16_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "79")
+			(name "unconnected-(J3-Pad17)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "17")
+				(pinfunction "17_17")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "80")
+			(name "unconnected-(J3-Pad18)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "18")
+				(pinfunction "18_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "81")
+			(name "unconnected-(J3-Pad19)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "19")
+				(pinfunction "19_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "82")
+			(name "unconnected-(J3-Pad20)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "20")
+				(pinfunction "20_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "83")
+			(name "unconnected-(J3-Pad21)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "21")
+				(pinfunction "21_21")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "84")
+			(name "unconnected-(J3-Pad22)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "22")
+				(pinfunction "22_22")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "85")
+			(name "unconnected-(J3-Pad23)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "23")
+				(pinfunction "23_23")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "86")
+			(name "unconnected-(J3-Pad24)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "24")
+				(pinfunction "24_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "87")
+			(name "unconnected-(J4-CD{slash}DAT3-Pad2)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "CD/DAT3_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "88")
+			(name "unconnected-(J4-CLK-Pad5)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "5")
+				(pinfunction "CLK_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "89")
+			(name "unconnected-(J4-CMD-Pad3)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "3")
+				(pinfunction "CMD_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "90")
+			(name "unconnected-(J4-DAT0-Pad7)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "7")
+				(pinfunction "DAT0_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "91")
+			(name "unconnected-(J4-DAT1-Pad8)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "8")
+				(pinfunction "DAT1_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "92")
+			(name "unconnected-(J4-DAT2-Pad1)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "DAT2_1")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "93")
+			(name "unconnected-(J4-VDD-Pad4)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "4")
+				(pinfunction "VDD_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "94")
+			(name "unconnected-(J4-VSS-Pad6)")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "6")
+				(pinfunction "VSS_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "95")
+			(name "unconnected-(R1-Pad1)")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "96")
+			(name "unconnected-(R1-Pad2)")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "97")
+			(name "unconnected-(R9-Pad2)")
+			(class "Default")
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "98")
+			(name "unconnected-(SW2A-A-Pad1)")
+			(class "Default")
+			(node
+				(ref "SW2")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "99")
+			(name "unconnected-(TH1-Pad2)")
+			(class "Default")
+			(node
+				(ref "TH1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "100")
+			(name "unconnected-(U1-BTST-Pad21)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "BTST_21")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "101")
+			(name "unconnected-(U1-D+-Pad2)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "D+_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "102")
+			(name "unconnected-(U1-DSEL-Pad24)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "DSEL_24")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "103")
+			(name "unconnected-(U1-D–-Pad3)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "D–_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "104")
+			(name "unconnected-(U1-ILIM-Pad10)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "ILIM_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "105")
+			(name "unconnected-(U1-INT-Pad7)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "INT_7")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "106")
+			(name "unconnected-(U1-OTG-Pad8)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "OTG_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "107")
+			(name "unconnected-(U1-PMID-Pad23)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "PMID_23")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "108")
+			(name "unconnected-(U1-POWERPAD-Pad25)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "POWERPAD_25")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "109")
+			(name "unconnected-(U1-REGN-Pad22)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "REGN_22")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "110")
+			(name "unconnected-(U1-TS-Pad11)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "TS_11")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "111")
+			(name "unconnected-(U1-~{CE}-Pad9)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "~{CE}_9")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "112")
+			(name "unconnected-(U1-~{QON}-Pad12)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "~{QON}_12")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "113")
+			(name "unconnected-(U2--VOUT-Pad5)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "-VOUT_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "114")
+			(name "unconnected-(U2-ANALOGUE_DIMMING-Pad2)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "ANALOGUE_DIMMING_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "115")
+			(name "unconnected-(U2-GND-Pad4)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "116")
+			(name "unconnected-(U2-VREF-Pad3)")
+			(class "Default")
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "VREF_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "117")
+			(name "unconnected-(U3-CELL-Pad2)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "CELL_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "118")
+			(name "unconnected-(U3-EP-Pad9)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "9")
+				(pinfunction "EP_9")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "119")
+			(name "unconnected-(U3-GND-Pad4)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "GND_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "120")
+			(name "unconnected-(U3-QSTRT-Pad6)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "QSTRT_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "121")
+			(name "unconnected-(U3-SCL-Pad7)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "7")
+				(pinfunction "SCL_7")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "122")
+			(name "unconnected-(U3-SDA-Pad8)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "8")
+				(pinfunction "SDA_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "123")
+			(name "unconnected-(U3-VDD-Pad3)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "VDD_3")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "124")
+			(name "unconnected-(U3-~{ALERT}-Pad5)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "~{ALERT}_5")
+				(pintype "output")
+			)
+		)
+	)
+)
